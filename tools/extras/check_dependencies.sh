@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CXX=${CXX:-g++}
-CXXFLAGS="-std=c++11"
+CXXFLAGS=${CXXFLAGS}
 status=0
 
 # at some point we could try to add packages for Cywgin or macports(?) to this
